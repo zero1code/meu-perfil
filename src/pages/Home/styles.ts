@@ -100,7 +100,7 @@ export const InfoContent = styled.div`
 
 export const AboutMeCard = styled.div`
   width: 800px;
-  height: 200px;
+  height: 280px;
   margin-left: 10px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.1);
@@ -109,7 +109,7 @@ export const AboutMeCard = styled.div`
 
   @media(max-width: 800px) {
     width: 400px;
-    height: 400px;
+    height: 500px;
     margin-left: 0;
   }
 `;
@@ -124,9 +124,73 @@ export const AboutMeDescription = styled.p`
   font-size: 18px;
 `;
 
+export const SocialMediasContent = styled.div`
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 20px 0 20px;
+
+  svg {
+    width: 1.5em;
+    height: 1.5em;
+  }
+`
+
+export const GitHubButton = styled.a`
+  width: 130px;  
+  height: 50px;
+  margin: 0 5px;
+  display: inline-flex;
+  align-items: center;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+  color: #fff;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+`
+
+export const GitHubText = styled.span`
+  flex-shrink: 0;
+  margin-left: 12px;
+`;
+
+export const LinkedInButton = styled.a`
+  width: 130px;  
+  height: 50px;
+  margin: 0 5px;
+  display: inline-flex;
+  align-items: center;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+  color: #fff;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+`;
+
+export const LinkedInText = styled.span`
+  flex-shrink: 0;
+  margin-left: 12px;
+`;
+
 export const ProjectsCard = styled.div`
   width: 800px;
-  height: 550px;
+  height: 500px;
   margin-left: 10px;
   margin-top: 10px;
   border-radius: 10px;
@@ -153,6 +217,8 @@ export const ProjectsDescription = styled.p`
 
 export const CardContent = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media(max-width: 800px) {
     flex-direction: column;
@@ -162,7 +228,7 @@ export const CardContent = styled.div`
 
 export const ProjectCard = styled.div`
   position: relative;
-  width: 280px;
+  width: 210px;
   height: 350px;
   margin: 30px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
