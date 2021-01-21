@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin: 20px 0;
-  
 `;
 
 export const Content = styled.div`
@@ -27,7 +26,7 @@ export const ProfileCard = styled.div`
   background: rgba(255, 255, 255, 0.1);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-
+  backdrop-filter: blur(5px);
  
 `;
 
@@ -60,6 +59,7 @@ export const InterestsCard = styled.div`
   background: rgba(255, 255, 255, 0.1);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 `;
 
 export const InterestsText = styled.h2`
@@ -259,7 +259,7 @@ export const ProjectNumber = styled.span`
   top: -30px;
   right: 30px;
   font-size: 7em;
-  color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.3);
   pointer-events: none;
 `;
 
@@ -287,6 +287,3 @@ export const ProjectButton = styled.a`
   font-weight: 500;
   cursor: pointer;
 `;
-
-
-

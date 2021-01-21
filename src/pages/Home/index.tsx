@@ -113,9 +113,9 @@ const Home: React.FC = () => {
           <AboutMeCard>
             <AboutMeText>Sobre mim</AboutMeText>
             <AboutMeDescription>
-            Formado em Sistema de Informação pelo Centro Universitário ENIAC.
+              Formado em Sistema de Informação pelo Centro Universitário ENIAC.
 
-Apaixonado por programação, sempre busco melhorar cada dia mais meus conhecimentos e assim criar aplicações fluídas, limpas, responsivas e modernas com as melhores tecnologias do mercado.
+              Apaixonado por programação, sempre busco melhorar cada dia mais meus conhecimentos e assim criar aplicações fluídas, limpas, responsivas e modernas com as melhores tecnologias do mercado.
             </AboutMeDescription>
             <SocialMediasContent>
               <GitHubButton href="https://github.com/zero1code" target="_blank">
